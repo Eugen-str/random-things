@@ -1,6 +1,6 @@
 # Random things
 
-### huffman.hs - an implementation of Huffman coding in Haskell
+### Huffman.hs - an implementation of Huffman coding in Haskell
 
 To encode things use `huffmanEncode x`, where `x` is the string/list to encode.
 
@@ -11,7 +11,7 @@ To decode things use `huffmanDecode encoded ht`, where `encoded` are the encoded
 example, encoding the text "hello world!" and then decoding it with the table and bits:
 
 ```haskell
-$ ghci huffman.hs
+$ ghci Huffman.hs
 
 > encoded = huffmanEncode "hello world!"
 > encoded
@@ -23,4 +23,19 @@ $ ghci huffman.hs
 
 > huffmanDecode encoded ht
 "hello world!"
+```
+
+
+### Bf.hs - very basic brainf*ck interpreter
+
+just interpret a file with `runghc Bf.hs file.bf`
+
+or run a repl with `runghc Bf.hs`
+
+example:
+
+```console
+$ runghc Bf.hs
+> ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+Hello World!
 ```

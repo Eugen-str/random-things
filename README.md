@@ -1,5 +1,18 @@
 # Random things
 
+### Bezier -- bezier curve in Haskell with Gloss
+
+to run it, go into the project directory and do `cabal run`
+
+place points with left click, when you have at least two points it will start rendering the bezier curve between them
+
+to clear the points press C
+
+to exit press ESCAPE
+
+<img src="Bezier/example.gif" width="400">
+
+
 ### Huffman.hs - an implementation of Huffman coding in Haskell
 
 To encode things use `huffmanEncode x`, where `x` is the string/list to encode.

@@ -1,5 +1,22 @@
 # Random things
 
+### s-exp -- Simbolic expression evaluation
+
+basic symbolic expression (s-expression) evaluator in Haskell
+
+use the REPL with `cabal run`, use it immediately with `cabal run s-exp <expression>`
+
+example:
+
+```console
+$ cabal run s-exp "(+ 3 5)"
+8
+$ cabal run
+expr> (* 2 (+ 1 4))
+10
+expr> quit
+```
+
 ### Bezier -- bezier curve in Haskell with Gloss
 
 to run it, go into the project directory and do `cabal run`
